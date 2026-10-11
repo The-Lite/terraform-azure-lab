@@ -7,6 +7,6 @@ resource "azurerm_resource_group" "lite_rg" {
     managed_by  = "terraform"
   }
   lifecycle {
-  ignore_changes = [tags]
-}
+    ignore_changes = [tags]
+  }
 }
